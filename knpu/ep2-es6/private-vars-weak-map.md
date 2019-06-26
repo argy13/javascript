@@ -75,7 +75,7 @@ object... and just pass in the `body` tag. Copy this and repeat it three other t
 
 [[[ code('15e93df081') ]]]
 
-Notice that these are *not* being used: I'm not setting them to a variable. In other
+Notice that "this" are *not* being used: I'm not setting them to a variable. In other
 words, they are created, and then they're gone: no longer referenced by anything.
 Below that - and this won't make sense yet, call `setTimeout()`, pass it an arrow
 function, and inside, `console.log(HelperInstances)`. Set that to run five seconds
